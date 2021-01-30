@@ -70,22 +70,22 @@ const diabetesData = {
 app.get('/api/normal',(req,res) => {
     res.status(200).json(healthNormalData)
 })
-app.get('/api/normal',(req,res) => {
+app.get('/api/acuteasthma',(req,res) => {
     res.status(200).json(acuteasthmaData)
 })
-app.get('/api/normal',(req,res) => {
+app.get('/api/hypoxemia',(req,res) => {
     res.status(200).json(hypoxemiaData)
 })
-app.get('/api/normal',(req,res) => {
+app.get('/api/chd',(req,res) => {
     res.status(200).json(chdData)
 })
-app.get('/api/normal',(req,res) => {
+app.get('/api/bronchiectasis',(req,res) => {
     res.status(200).json(bronchiectasisData)
 })
-app.get('/api/normal',(req,res) => {
+app.get('/api/prediabetes',(req,res) => {
     res.status(200).json(prediabetesData)
 })
-app.get('/api/normal',(req,res) => {
+app.get('/api/diabetes',(req,res) => {
     res.status(200).json(diabetesData)
 })
 app.listen(port, () => console.log("server is listening to the port:",port))
